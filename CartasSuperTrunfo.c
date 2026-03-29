@@ -16,6 +16,8 @@ int main() {
    float Area;
    float Pib;
    int Pontos_Turisticos;
+   float Densidade_Populacional;
+   float Pib_Per_Capita;
 
  
    // Área para entrada de dados
@@ -28,6 +30,8 @@ int main() {
    float AreaA = 1521.11;
    float PibA = 699.28;
    int Pontos_TuristicosA = 50;
+   float Densidade_PopulacionalA = PopulacaoA / AreaA;
+   float Pib_Per_CapitaA = (PibA * 100000000.0) / PopulacaoA;
 
 
    char EstadoB = 'B';
@@ -37,6 +41,8 @@ int main() {
    float AreaB = 1200.25;
    float PibB = 300.50;
    int Pontos_TuristicosB = 30;
+   float Densidade_PopulacionalB = PopulacaoB / AreaB;
+   float Pib_Per_CapitaB = (PibB * 100000000.0) / PopulacaoB;
  
 
     // Área para exibição dos dados da cidade
@@ -53,6 +59,8 @@ int main() {
     printf("Área: %.2f km²\n", AreaA);
     printf("PIB: %.2f Bilhões De Reais\n", PibA);
     printf("Pontos Turísticos: %d\n", Pontos_TuristicosA);
+    printf("Densidade Populaciona: %.2f hab/km²\n", Densidade_PopulacionalA);
+    printf("Pib_Per_Capita: %.2f Reais \n", Pib_Per_CapitaA);
 
 
     printf("             CARTA 2        \n");
@@ -66,6 +74,9 @@ int main() {
     printf("Área: %.2f km²\n", AreaB);
     printf("PIB: %.2f Bilhões De Reais\n", PibB);
     printf("Pontos Turísticos: %d\n", Pontos_TuristicosB);
+    printf("Densidade Populaciona: %.2f hab/km²\n", Densidade_PopulacionalB);
+    printf("Pib_Per_Capita: %.2f Reais \n", Pib_Per_CapitaB);
+
 
 
 return 0;
