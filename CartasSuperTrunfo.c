@@ -59,7 +59,7 @@ int main() {
     // Área para exibição dos dados da cidade
 
      
-    printf("       CARTA 1         \n");
+    printf("        CARTA 1         \n");
 
 
     printf("Carta 1 - São Paulo, SP\n");
@@ -74,7 +74,7 @@ int main() {
     printf("Pib_Per_Capita: %.2f Reais \n", Pib_Per_CapitaA);
 
 
-    printf("             CARTA 2        \n");
+    printf("         CARTA 2        \n");
 
 
     printf("Carta 2 - Rio De Janeiro, RJ\n");
@@ -88,7 +88,7 @@ int main() {
     printf("Densidade Populaciona: %.2f hab/km²\n", Densidade_PopulacionalB);
     printf("Pib_Per_Capita: %.2f Reais \n", Pib_Per_CapitaB);
 
-    printf("             VENCEDOR        \n");
+    printf("           CARTA VENCEDORA        \n");
     
     printf("População: Carta %d venceu (%d)\n", (PopulacaoA > PopulacaoB) ? 1 : 2, PopulacaoA > PopulacaoB);
     printf("Área: carta %d venceu (%d)\n", (AreaA > AreaB) ? 1 : 2, AreaA > AreaB);
@@ -97,8 +97,6 @@ int main() {
     printf("Pib Per Capita: carta %d venceu (%d)\n", (Pib_Per_CapitaA > Pib_Per_CapitaB) ? 1 : 2, Pib_Per_CapitaA > Pib_Per_CapitaB);
     printf("Densidade Populacional: carta %d venceu (%d)\n", (Densidade_PopulacionalA < Densidade_PopulacionalB) ? 1 : 2, Densidade_PopulacionalA < Densidade_PopulacionalB);
     printf("Super Poder: carta %d venceu (%d)\n", (SuperPoderA > SuperPoderB) ? 1 : 2, SuperPoderA > SuperPoderB);
-
-
 
 
 return 0;
